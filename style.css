@@ -9,11 +9,18 @@ html {
     justify-content: center;
 }
 body {
-    color: white;
-    font-size: 16px; /* 1rem = 10px */
+    color: black;
+    font-size: 16px;
     font-family: 'Krub',sans-serif;
-    background-color: black;
+    background: linear-gradient(270deg, #FAA245 35%, #d8328a 60%, #753872 100%);
     
+}
+.caja{
+    width: 600px;
+    height: 500px;
+    border: solid;
+    margin: 5rem;
+    box-shadow: 20px 15px 20px #753872;
 }
 h1 {
     font-size: 3.8rem;
@@ -31,6 +38,35 @@ main, form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.footer{
+    
+    padding:1.5rem;
+    display: flex;
+    justify-content: space-between;
+    grid-area: footer;
+    text-align: center;
+}
+.footer p{
+    background: linear-gradient(270deg, #f6f323 20%, #FAA245 100%, #b04bab 70%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social {
+    margin-right: 2rem;
+    
+}
+
+.social--item {
+    margin-right: 1rem;
+    background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
